@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <title>this is my Courses</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <input
+      class="theme-toggle-input"
+      type="checkbox"
+      id="theme-toggle"
+      aria-label="Toggle dark mode"
+    />
+    <header class="header">
+      <h1>(About)My Courses</h1>
+      <div class="header-controls">
+        <nav class="links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="Components">Components</a>
+        </nav>
+        <label
+          class="theme-toggle"
+          for="theme-toggle"
+          aria-label="Toggle dark mode"
+        >
+          <span class="theme-toggle-icon" aria-hidden="true"></span>
+        </label>
+      </div>
+    </header>
+    <main>
+      <h2>About Me</h2>
+      <h3>My Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>javascript</li>
+      </ul>
+      <h3>My courses</h3>
+      <table class="table">
+        <thead>
+          <tr class="tr1">
+            <th>Course Name</th>
+            <th>Day</th>
+            <th>Room</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Web Development</td>
+            <td>Monday</td>
+            <td>Room 101</td>
+          </tr>
+          <tr>
+            <td>Database Management</td>
+            <td>Wednesday</td>
+            <td>Room 201</td>
+          </tr>
+          <tr>
+            <td>Mobile App Development</td>
+            <td>Friday</td>
+            <td>Room 303</td>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p>&copy; this is the about page of my company.Here you can find information about the company and its features.</p>
+    </footer>
+  </body>
+</html>
